@@ -1,0 +1,16 @@
+
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="com.example.notekeeper.SettingsActivity$MessagesFragment"
+        app:icon="@drawable/ic_account_box_black_24dp"
+        app:key="messages_header"
+        app:title="@string/messages_header" />
+
+    <Preference
+        app:fragment="com.example.notekeeper.SettingsActivity$SyncFragment"
+        app:icon="@drawable/sync"
+        app:key="sync_header"
+        app:title="@string/sync_header" />
+
+</androidx.preference.PreferenceScreen>
